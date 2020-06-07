@@ -1,0 +1,716 @@
+
+
+ /** =======================================================
+ Create by ahmed Elgendy
+ Gmail:develgendy@gmail.com
+ phone: 01025105048
+ name Templet: url-shortening-api-master
+
+======================================================= **/
+
+/***********************************
+   Start Navigation bar
+**********  **************************/
+.navbar-default .navbar-brand {
+    color: #5FCF80;
+}
+.navbar-default {
+    background-color: #ffffff;
+}
+.course-text{
+    padding: 84px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #717f86;
+    font-size: 14px;
+    font-weight: 700;
+}
+.navbar-nav > li > a{
+	padding: 0px;
+	margin: 10px 5px;
+	padding: 10px 15px;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover
+{
+    color: #44c5d8;
+
+}
+.navbar-nav .active a{
+    background: none !important;
+    color: #44c5d8 !important;
+    outline: none;
+}
+
+.btn-trial a{
+	background-color: #44c5d8;
+	border-radius: 25px;
+	color: #ffffff !important;
+	border: 1px solid #44c5d8;
+}
+.btn-trial a:hover, .btn-trial a:focus{
+	border: 1px solid #44c5d8;
+	background-color: #fff;
+	color: #44c5d8 !important;
+}
+.navbar-default .navbar-brand {
+    font-family: 'Dosis', sans-serif !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0px;
+    height: inherit;
+    font-size: 36px;
+    margin: 20px 0px;
+}
+.navbar-default .navbar-brand span{
+	font-weight: 100 !important;
+}
+.navbar {
+    margin-bottom: 0px;
+}
+.padding-zero{
+	padding: 0px;
+}
+.mart20{
+	margin-top: 20px;
+}
+
+/*** ******************  Start  show in mobil  in    Start Navigation bar **********888**/
+@media only screen and (max-width: 600px) {
+    .navbar-nav {
+        text-align: center;
+        margin: 7.5px -15px;
+        background: #131948eb;
+        border-radius: 38px;
+        color: #fff;
+        font-weight: bold;
+    }
+  }
+
+/*****************************8 start header ************************************/
+.header{
+  height:750px;
+  width: 100%;
+  padding: 30px 0 30px;
+  margin-top: 75px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #29dec5; 
+  overflow: hidden;
+}
+.header img{
+    height: 450px;
+    width: 403px;
+}
+
+    .header h1 {
+        font-family: 'Dosis', sans-serif  !important;
+        border-width: 0px;
+        margin-top: 100px;
+        padding: 0px;
+        color: #3f3d56;
+        letter-spacing: 2px;
+        font-size: 69px;
+        font-weight: bold;
+}
+.header p{
+  font-family: 'Dosis', sans-serif !important;
+  font-weight: 300;
+  color: #9f9a9a;
+  font-size:20px;
+  padding: 10px 0 0 0;
+  line-height: 1.2;
+}
+.header button{
+  margin-top: 20px;
+
+}
+.header .btn {
+    border-radius: 50px;
+    margin: 34px 19px;
+    height: 59px;
+    width: 30%;
+    background: #44c5d8;
+    font-weight: bold;
+    margin-left: 0em;
+
+}
+
+ 
+ @media only screen and (max-width: 600px){
+    .header h1 {
+        font-family: 'Dosis', sans-serif;
+        font-size: 36px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 50px;
+        
+    }
+
+
+ 
+    .header img {
+        width: 100%;
+        height: 295px;
+        margin: 0 0 0 0px;
+   }
+
+  
+
+.header p {
+    font-family: 'Dosis', sans-serif !important;
+    font-weight: 300;
+    color: #9f9a9a;
+    font-size:15px;
+    padding: 10px 0 0 0;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.header .btn {
+    border-radius: 50px;
+    margin: 14px 82px;
+    height: 53px;
+    width: 49%;
+    background: #29dec5;
+    font-weight: bold;
+}
+
+
+}
+
+
+
+/***********************************
+  <!-----------Start Form Input --------------------->
+
+************************************/
+#cta-2 {
+    padding: 40px;
+    background-image: url(../img/2.png);
+    background-color: RGBA(12, 11, 78, 0.82);
+}
+.cta-2-txt {
+    font-size: 24px;
+    padding-bottom: 15px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 34px !important;
+}
+.cta-2-form input[type="email"] {
+    border: 0px solid #CCC;
+    padding: 13px 40px;
+    font-size: 18px;
+    color: #2b5d83;
+    font-weight: 100;
+    min-width: 289px;
+    margin-left: -4px;
+    margin-bottom: 6px;
+    width: 50%;
+    height: 56px;
+    border: 1px solid #44c5d8;
+    background-color: rgb(247, 247, 247);
+    border-radius: 26px 0px 0px 30px;
+}
+.cta-2-form-submit-btn {
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #fff;
+    background-color: #44c5d8;
+    border: 2px solid #fff;
+    padding: 14px 30px;
+    margin-left: -4px;
+    transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    border-width: 1px 1px 1px 0px;
+    border-radius: 0px 30px 30px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .cta-2-form input[type="email"] {
+        border: 0px solid #CCC;
+        padding: 13px 40px;
+        font-size: 18px;
+        color: #2b5d83;
+        font-weight: 100;
+        min-width: 289px;
+        margin-left: -4px;
+        margin-bottom: 6px;
+        width: 75%;
+        border: 1px solid #5fcf80;
+        background-color: rgb(247, 247, 247);
+        border-radius: 26px;
+    }
+
+
+
+    .cta-2-form-submit-btn {
+        border-radius: 30px;
+        text-align: center;
+        margin-left: 30px;
+
+    }
+}
+
+/**---------------------End Form Input --------------------------------->*/
+
+
+/*******************Start SERVICES*******************/
+
+.Services{
+    padding: 80px 0 80px;
+    text-align: center;
+    background: #eff1f7;
+  
+  }
+  .Services h2,
+  .Services h4{
+    font-family: 'Dosis', sans-serif !important;
+    color: #4b3f6b;
+    font-weight: bold;
+    margin: 20px 0 20px;
+     text-transform: uppercase;
+  }
+  .Services p{
+    font-family: 'Dosis', sans-serif !important;
+    color: #737373;
+    font-size:14px;
+    padding-bottom: 40px;
+  
+  }
+  .Services i{
+    height: 80px;
+    width: 80px;
+    font-size: 30px;
+    padding: 25px 20px;
+    border:1px solid #44c5d8;
+    border-radius: 50%;
+    background-color:#4b3f6b;
+    color: #44c5d8;
+  }
+  .Services i:hover{
+    height: 80px;
+    width: 80px;
+    font-size: 30px;
+    padding: 25px 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #4b3f6b;
+  }
+  @media(max-width:768px){
+    .Services {
+      padding: 30px;
+    }
+  }
+  /********* Stat  PRICING *************/
+  .pricing {
+    padding: 50px 0 80px;
+    text-align: center;
+    background-color: #44c5d8;
+  }
+  .pricing h2{
+     font-family: 'Montserrat', sans-serif;
+    color: #4c4c4c;
+    margin-left:45%;
+     text-transform: uppercase;
+  }
+   .pricing p{
+     font-family: 'Montserrat', sans-serif;
+    padding-bottom: 40px;
+    color: #f3f3f3;
+  
+   }
+  
+  .carousel-inner{
+    height: 400px;
+  }
+  
+    @media(max-width:768px){
+  
+  .pricing {
+    padding: 5px;
+  }
+  
+  .pricing h2{
+    margin-left: 20px;
+    padding: 5px;
+  }
+  .pacackges{
+    width: 80%;
+    margin-left:25px;
+    }
+  .carousel-inner{
+    height: 200px;
+  }
+  
+  }
+  .cta-2-form{
+      margin-bottom: 0em;
+  }
+  .cta-2-form h1{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+  .cta-2-form button{
+    font-weight: bold;
+    border-radius: 32px;
+    background:#44c5d8;
+    width: 175px;
+    height: 63px;
+}
+
+  
+  
+  .team{
+    text-align:center;
+    margin-bottom: 50px;
+  }
+  .team b,
+  .team h2,
+  .team h4{
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px 0 20px;
+  color: #4c4c4c;
+  }
+  .team h2{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 40%;
+     text-transform: uppercase;
+  
+  }
+  .taem p{
+     font-family: 'Montserrat', sans-serif;
+     margin:3px;
+     padding: 5px;
+    color: #4c4c4c;
+  
+  }
+  .team i{
+    height: 30px;
+     padding: 5px;
+     font-size:17px;
+     border-radius: 50%;
+     background-color: #a0db8e;
+     color: #fff;
+  }
+  .team a:hover i{
+    background-color: #709963;
+  
+  }
+    @media(max-width:768px){
+  
+  .team h2{
+    padding: 5px;
+        margin-left: 40px;
+  }
+  
+  }
+  
+  
+  
+  
+  /*********CLIENTS**************/
+  .clients{
+    padding: 50px 0 80px;
+    background-color:#29dec5;
+    text-align: center;
+    color: #fff;
+  
+  }
+  
+  .clients h2{
+     font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #4c4c4c;
+    margin-left: 40%;
+  
+  }
+  .clients p{
+     font-family: 'Montserrat', sans-serif;
+    padding-bottom: 40px;
+  
+  }
+  .clients li{
+    list-style-type: none;
+  }
+  .clients img {
+     width: 200px;
+     opacity: 0.6;
+     cursor: pointer;
+     margin: 40px 0;
+     transition: all 500ms ease-in-out;
+     border-radius: 5px;
+  }
+  
+  .clients li:hover img{
+    opacity: 1;
+  
+  }
+  
+  
+    @media(max-width:768px){
+  
+  .clients h2{
+        padding: 0px;
+      margin-left: 75px;
+  }
+  
+  }
+  
+  
+  
+  
+  
+  /**************** CONTACT************/
+  .Contact {
+      padding: 0px 0 0px;
+      text-align: center;
+      margin-top: 10px;
+  }
+  
+  .Contact p{
+     font-family: 'Montserrat', sans-serif;
+    padding-bottom: 80px;
+    color: #737373;
+  }
+  .Contact h2{
+     font-family: 'Montserrat', sans-serif;
+  
+    color: #4c4c4c;
+    margin: 20px 0 20px;
+    margin-left: 40%;
+  
+  }
+  
+  .Contact .input-group{
+    margin-bottom: 25px;
+  }
+  .Contact .form-control{
+    border-radius: 0 !important;
+  
+  }
+  .Contact span{
+    border-radius: 0!important;
+  }
+  .Contact .btn{
+    border-radius: 0;
+    width: 100%;
+    font-size: 15px;
+    background-color: #f08080;
+    color: #fff;
+  }
+  .Contact .btn:hover{
+    background-color: #a85959;
+    color: #fff !important;
+  }
+  
+  
+    @media(max-width:768px){
+  
+  .Contact h2{
+      padding: 0px;
+      margin-left: 100px;
+  }
+  
+  }
+  
+   /**********FOOTER***********/
+   .footer{
+    margin-top:0px;
+    padding: 30px;
+    color: #cccccc;
+    background-color: #222222;
+    text-align: center;
+   }
+   .footer h1{
+    margin-left: 40%;
+    color: #fff;
+   }
+  /******* start category*************/
+  .f,.S{
+    background: #29dec5;
+    margin-bottom:10px;
+    border-radius: 5px;
+    padding-right: 0px;
+  }
+  .f,.S h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+  }
+  
+  .f p{
+    color: #555;
+  }
+  .f .btn{
+    background: #666;
+    border:1px solid #666;
+    margin-bottom: 5px;
+  }
+  
+  .f .btn:hover{
+    background:#222;
+  }
+  
+    
+  .S p{
+     color: #555;
+     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .S .btn{
+    background: #666;
+    border:1px solid #666;
+    margin-bottom: 5px;
+    margin-left: 100px; 
+  }
+  
+  
+  @media(max-width:768px){
+  .f{
+    padding: 0;
+    width: 96%;
+  }
+  
+  .S{
+      padding: 0;
+    width: 96%;
+  }
+  
+  }
+  .footer {
+    background: #232425;
+  }
+  
+  .footer .block h4 {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  
+  .footer .block.about img {
+    margin-bottom: 25px;
+  }
+  
+  .footer .block.about p {
+    line-height: 26px;
+  }
+  
+  .footer .block ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer .block ul li a {
+    display: block;
+    font-size: 14px;
+    color: #797979;
+  }
+  
+  .footer .block ul li a:hover {
+    color: #5672f9;
+    text-decoration: underline;
+  }
+  
+  .footer .block ul.terms-list {
+    margin-top: 10px;
+  }
+  
+  .footer .block ul.terms-list li a {
+    padding-right: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .footer .block:last-child {
+      margin-bottom: 30px;
+    }
+  }
+  
+  .footer .block-2 {
+    padding: 18px 30px;
+    border-radius: 2px;
+  }
+  
+  .footer .block-2.app-promotion {
+    float: right;
+    /* float: right; */
+    /* float: inherit; */
+    margin-bottom: 20px;
+    text-align: center;
+}
+ol, ul {
+  margin-top: 0;
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 1200px){
+.col-lg-4 {
+    width: 23.333333%;
+}
+  .footer-bottom {
+    position: relative;
+    background: #363839;
+    padding: 25px 0;
+  }
+  
+  @media (max-width: 480px) {
+    .footer-bottom {
+      text-align: center;
+    }
+  }
+  
+  .footer-bottom .copyright p {
+    color: #c7c7c7;
+    margin-bottom: 0;
+  }
+  
+  .social-media-icons {
+    text-align: center !important;
+  }
+  
+  .social-media-icons li {
+    display: inline-block;
+  }
+  
+  .social-media-icons li a {
+    color: #848484;
+    padding: 0 20px;
+  }
+  
+  .social-media-icons li a:hover {
+    color: #fff !important;
+    text-decoration: none;
+  }
+  
+  .top-to {
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .top-to a {
+    width: 40px;
+    height: 40px;
+    background: #5672f9;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .top-to a i {
+    line-height: 40px;
+  }
+  
+  .top-to a:hover {
+    text-decoration: none;
+  }
+}
+  
